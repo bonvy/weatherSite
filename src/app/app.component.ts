@@ -13,8 +13,8 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-        this.weatherService.getNext15DaysLocation('Trento,IT').subscribe((data)=>console.log(data));
-    }
+    this.weatherService.getNext15DaysLocation('Trento,IT').subscribe((data)=>console.log(data));
+  }
 
 
 }
